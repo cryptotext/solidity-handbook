@@ -1,6 +1,5 @@
 // File: @openzeppelin/contracts/utils/Context.sol
 
-// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
 
@@ -27,7 +26,6 @@ abstract contract Context {
 
 // File: @openzeppelin/contracts/access/Ownable.sol
 
-// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
 
@@ -100,7 +98,7 @@ abstract contract Ownable is Context {
 pragma solidity ^0.8.0;
 
 
-contract OwnableHelloWorld is Ownable{
+contract FlatOwnableHelloWorld is Ownable{
     string public message = "Hello, World!";
     string public OwnableMessage = "Ownable Message";
 
